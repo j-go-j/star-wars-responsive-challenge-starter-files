@@ -11,14 +11,18 @@ h1, h2 {
 	padding-top: 20px;
 }
 .box {
-	height: 200px;
+	height: 300px;
 	text-align: center;
 }
 img {
 	width: 240px;
 }
+.wrapper-fig {
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+	padding: 0;
+}
 figcaption {
 	text-align: left;
-	padding: 10px;
-	display: block;
 }
